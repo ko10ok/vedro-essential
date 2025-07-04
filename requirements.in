@@ -1,0 +1,30 @@
+# vedro
+vedro
+
+# config
+cabina
+
+# run
+uber-compose
+
+# output and report
+vedro-allure-reporter
+vedro-gitlab-reporter
+vedro-valera-validator
+vedro-telemetry
+vedro-cloud
+
+# test markup
+vedro-advanced-tags
+
+# flaky handle
+flakyzavr
+vedro-flaky-steps
+
+# lint
+isort
+autoflake
+flake8
+flake8-vedro
+flake8-vedro-allure
+flake8-qa-style
