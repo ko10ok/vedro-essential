@@ -1,4 +1,4 @@
-export VERSION=$(shell cat vedro-essential/version)
+export VERSION=$(shell cat vedro_essential/version)
 
 .PHONY: install-deps
 install-deps:
