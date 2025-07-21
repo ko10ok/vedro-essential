@@ -131,7 +131,7 @@ typing-extensions==4.14.0
     #   exceptiongroup
     #   jira
     #   rich
-uber-compose==1.1.8
+uber-compose==1.2.0
     # via -r requirements.in
 urllib3==2.5.0
     # via requests
