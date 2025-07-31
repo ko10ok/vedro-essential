@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-allure-python-commons==2.14.3
+allure-python-commons==2.15.0
     # via vedro-allure-reporter
 anyio==4.9.0
     # via httpx
@@ -16,15 +16,13 @@ cabina==1.1.2
     # via
     #   -r requirements.in
     #   vedro
-certifi==2025.6.15
+certifi==2025.7.14
     # via
     #   httpcore
     #   httpx
     #   requests
 charset-normalizer==3.4.2
     # via requests
-d42==2.2.0
-    # via vedro-valera-validator
 defusedxml==0.7.1
     # via jira
 exceptiongroup==1.3.0
@@ -76,8 +74,6 @@ mdurl==0.1.2
 niltype==1.0.2
     # via
     #   cabina
-    #   d42
-    #   th
     #   vedro
 oauthlib==3.3.1
     # via requests-oauthlib
@@ -121,11 +117,9 @@ rtry==1.5.0
     #   vedro-cloud
 sniffio==1.3.1
     # via anyio
-th==0.4.1
-    # via d42
 tomli==2.2.1
     # via autoflake
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   anyio
     #   exceptiongroup
@@ -146,7 +140,6 @@ vedro==1.14.3
     #   vedro-flaky-steps
     #   vedro-gitlab-reporter
     #   vedro-telemetry
-    #   vedro-valera-validator
 vedro-advanced-tags==0.2.1
     # via -r requirements.in
 vedro-allure-reporter==1.11.1
@@ -158,6 +151,4 @@ vedro-flaky-steps==1.1.2
 vedro-gitlab-reporter==2.1.4
     # via -r requirements.in
 vedro-telemetry==0.3.0
-    # via -r requirements.in
-vedro-valera-validator==1.2.1
     # via -r requirements.in

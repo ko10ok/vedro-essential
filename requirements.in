@@ -10,7 +10,6 @@ uber-compose
 # output and report
 vedro-allure-reporter
 vedro-gitlab-reporter
-vedro-valera-validator
 vedro-telemetry
 vedro-cloud
 
